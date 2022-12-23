@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NCIT Attendence</string>
+    <string name="company">Mandal &amp; Brothers</string>
+    <string name="welcome">Welcome</string>
+    <string name="ncit">NCIT</string>
+    <string name="signin_to_continue">Sign In to Continue</string>
+    <string name="copyr">Mandal &amp; Brothers. All Rights Reserved.</string>
+    <string name="version">Version 1.0</string>
+    <string name="not_found">User Not Found !!!</string>
+
+    <string name="toggle_open">toggle open</string>
+    <string name="toggle_close">toggle close</string>
+    <string name="share_body">I would like to share Online Notepad App.  Here you can download this from playstore :\n    https://play.google.com/store/apps/details?id=</string>
+
+    <!--    For Clients-->
+    <string name="mark_attendence">Mark Attendance</string>
+    <string name="attendence_status_absent">Attendance Status : Absent</string>
+    <string name="success_attendance">Your attendance is Marked :D</string>
+    <string name="duplicate_message">Already marked</string>
+
+</resources>

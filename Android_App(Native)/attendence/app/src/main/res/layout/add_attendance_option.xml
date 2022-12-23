@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/circular_layout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Username"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/userID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Username"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@color/Gray"
+        android:textColor="@color/white"
+        android:text="ADD"/>
+
+</LinearLayout>

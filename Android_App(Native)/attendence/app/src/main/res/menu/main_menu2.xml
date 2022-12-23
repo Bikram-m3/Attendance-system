@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_roll"
+            android:icon="@drawable/ic_identity_24"
+            android:title="" />
+
+        <item
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/ic_phone_24"
+            android:title="" />
+
+        <item
+            android:id="@+id/nav_detail"
+            android:icon="@drawable/ic_registration_24"
+            android:title="Attendance" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_24"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout_24"
+            android:title="Log Out" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_24"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_24"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_rate_24"
+            android:title="Rate Us" />
+    </group>
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/Main"
+android:orientation="vertical"
+tools:context=".AttendanceLIst">
+
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/appBar1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/Main">
+
+        <ImageView
+            android:id="@+id/about_back"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_back_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/textHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:id="@+id/upload_button"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="Upload"/>
+
+        <ImageView
+            android:id="@+id/addBtn"
+            android:clickable="true"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_add_24"
+            app:tint="@color/white" />
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_22"/>
+
+
+
+</LinearLayout>

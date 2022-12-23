@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417004529068",
+    "project_id": "wifi-attendance-67172",
+    "storage_bucket": "wifi-attendance-67172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417004529068:android:3502128e9bbd1498028609",
+        "android_client_info": {
+          "package_name": "com.darksoul.attendence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417004529068-o8pbrq3h1kkpavb30v2se4vfbpai1ilv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-_O7F3Mvi5ZcRP3Bl-PKdetn1Ty59_MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417004529068-o8pbrq3h1kkpavb30v2se4vfbpai1ilv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

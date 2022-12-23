@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Semester">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="Shift">
+        <item>Morning</item>
+        <item>Day</item>
+    </string-array>
+
+    <string-array name="Depart">
+        <item>BECE</item>
+        <item>BEIT</item>
+        <item>BECIVIL</item>
+        <item>BEELX</item>
+        <item>BESE</item>
+        <item>BCA</item>
+    </string-array>
+</resources>

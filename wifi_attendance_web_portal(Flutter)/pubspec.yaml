@@ -1,0 +1,48 @@
+name: wifi_attendance_web
+description: A web application for NCIT attendance
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  url_strategy: ^0.2.0
+  equatable: ^2.0.3
+  firebase_core: ^1.21.1
+  firebase_messaging: ^13.0.0
+  firebase_auth: ^3.7.0
+  onesignal_flutter: ^3.0.0
+  flutter_bloc: ^8.0.1
+  hive: ^2.2.3
+
+  #for api loading
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - Assets/Images/
+
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: Assets/Fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: Assets/Fonts/OpenSans-ExtraBold.ttf
+          weight: 800
+

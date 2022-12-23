@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/Main"
+android:orientation="vertical"
+tools:context=".DisplayAttendanceListActivity">
+
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/appBar1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/Main">
+
+        <ImageView
+            android:id="@+id/about_back"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_back_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/textHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Attendance List"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"/>
+
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_22"/>
+
+    <TextView
+        android:id="@+id/listError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="No Data Found...!!"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>
